@@ -8,9 +8,9 @@ body {
 
 svg {
   position: relative;
-  top: -25em;
+  top: -27em;
   bottom: 0;
-  left: 0;
+  left: -2.5em;
   right: 0;
   margin: auto;
 }
@@ -69,8 +69,8 @@ svg path {
   /*  top: -35em;  
     left: 0;
     right: 0;*/
-    position: relative;
-    bottom: 33em;
+    position: absolute;
+    bottom: 15em;  
 }
 
 #nav:after {
@@ -106,32 +106,44 @@ svg path {
 
 
 h1 {
-  /*text-align: center;*/
+  text-align: center;
   margin-top: 1em;
-  margin-left: 18em;
+  margin-left: -3em;
   color: #660000; 
 }
 
 h2 {
+  text-align: center;
+  margin-top: 1em;
+  margin-left: -3em;
   color: #660000; 
 }
 
 
 p {
-  text-align: justify-all;  
+  text-align: center;  
   font-family: Verdana;
   font-size: 12pt;
   color: #330000;
+  margin: 2em;
 }
 
 img.small {
-  width: 500px;
-  height: 300px;
+  width: 100px;
+  height: 100px;
   position: relative;
   margin: 0px auto;
   float: left;
   margin-left: 3em;
   margin-right: 1em;
+}
+
+.img-circle {
+  width: 550px;
+  height: 350px;
+  margin-top: 10px;
+  margin-left: 400px;
+  border-radius: 25%;
 }
 
 
@@ -146,8 +158,8 @@ img.small {
 .btn-linkedin { 
   position: absolute;
   color: #007bb6;
-  top: 18em;
-  left: 16em;
+  top: 13em;
+  left: 18em;
 }
 
 #navabout {
@@ -164,6 +176,7 @@ img.small {
   left: 0;
   right: 0;*/
   position: relative;
+  bottom: 6em;  
  
 }
 
@@ -207,7 +220,7 @@ img.small {
   width: 100%;
   text-align: center;
   background-color: none;
-  margin-top: 25em;
+  margin-top: 27em;
 /*  top: -35em;
   bottom: 0;
   left: 0;
@@ -249,17 +262,23 @@ img.small {
 
 h3 {
     text-align: center;
+    margin-left: -2em;
+    bottom: 25em;
     font-family: Verdana;
+    font-weight: normal;
     font-size: 12pt;
     color: #660000;
 }
 
-.links {
+/*.links {
     position: absolute;
-    align: center;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 12pt;
+    color: #660000;
     top: 40em;
     left: 27em; 
-}
+}*/
 
 
 @import 'http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
