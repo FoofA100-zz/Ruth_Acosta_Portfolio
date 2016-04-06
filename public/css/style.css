@@ -146,7 +146,7 @@ img.small {
 .btn-linkedin { 
   position: absolute;
   color: #007bb6;
-  top: 12.5em;
+  top: 18em;
   left: 16em;
 }
 
@@ -207,7 +207,7 @@ img.small {
   width: 100%;
   text-align: center;
   background-color: none;
-  margin-top: 28em;
+  margin-top: 25em;
 /*  top: -35em;
   bottom: 0;
   left: 0;
@@ -256,7 +256,8 @@ h3 {
 
 .links {
     position: absolute;
-    top: 27em;
+    align: center;
+    top: 40em;
     left: 27em; 
 }
 
