@@ -101,7 +101,7 @@ sub {
 img {
   width: auto\9;
   height: auto;
-  max-width: 100%;
+  max-width: 50%;
   vertical-align: middle;
   border: 0;
   -ms-interpolation-mode: bicubic;
@@ -231,14 +231,14 @@ body {
 }
 
 a {
-  color: #0088cc;
+  color: #006699;
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #005580;
-  text-decoration: underline;
+  color: #00aaff;
+  /*text-decoration: underline;*/
 }
 
 .img-rounded {
@@ -649,11 +649,11 @@ a:focus {
 }
 
 p {
-  margin: 0 0 10px;
+  margin: 0 0 20px;
 }
 
 .lead {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-size: 21px;
   font-weight: 200;
   line-height: 30px;
@@ -738,7 +738,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 10px 0;
+  margin: 30px 0;
   font-family: inherit;
   font-weight: bold;
   line-height: 20px;
