@@ -142,7 +142,9 @@ body {
   .mastfoot {
     position: fixed;
     bottom: -2em;
+    right: 26em;
   }
+
   /* Start the vertical centering */
   .site-wrapper-inner {
     vertical-align: middle;

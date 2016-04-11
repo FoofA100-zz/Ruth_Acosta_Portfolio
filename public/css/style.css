@@ -64,7 +64,15 @@ h3 {
     color: #660000;
 }
 
+#container {
+  width: 60%;
+  display: block;
+}
 
+.wrapper-container {
+  width: 45%; 
+  display: inline-block;
+}
 
 
 @import 'http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
